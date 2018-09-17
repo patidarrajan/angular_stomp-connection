@@ -8,8 +8,8 @@ import { StompConnectService } from './stomp-connect.service';
 })
 export class AppComponent {
   logsTexts: any;
-  connectionUrl: string = 'ws://10.103.3.17:8081/vms-cloud/stomp';
-  subscribeUrl: string = '/topic/instance-update/5';
+  connectionUrl: string = 'ws://xyz.com';
+  subscribeUrl: string = '/topic/xyz';
   constructor(public service: StompConnectService) { 
     this.logsTexts = [];
   }
