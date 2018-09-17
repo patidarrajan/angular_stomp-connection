@@ -1,0 +1,12 @@
+Stomp Connection : <strong>{{ connectionUrl }}</strong>
+<br/>Subscription: <strong>{{ subscribeUrl }} </strong>
+<br/>
+<br/>
+Stomp Message will display here.
+<br/>
+<ul>
+  <li *ngFor="let message of logsTexts; let i=index">
+    <span>{{ message }}</span>
+    <br/>
+  </li>
+</ul>
